@@ -1295,7 +1295,7 @@ window.__require = function e(t, n, o) {
 						n.parent = this.lineNode, n.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruit[e], n.children[0].getComponent(
 								cc.Sprite).spriteFrame = d.default.Instance.fruit[e], n.getComponent("fruitData").fruitNumber = e, n.position =
 							this.lineNode.children[1].position, n.scale = 0, n.getComponent(cc.RigidBody).type = cc.RigidBodyType.Static,
-							n.getComponent(cc.PhysicsCircleCollider).radius = 1, n.getComponent(cc.PhysicsCircleCollider).restitution = 0.8,n.getComponent(cc.PhysicsCircleCollider).apply(),cc.tween(
+							n.getComponent(cc.PhysicsCircleCollider).radius = 1, n.getComponent(cc.PhysicsCircleCollider).restitution = 0.5,n.getComponent(cc.PhysicsCircleCollider).apply(),cc.tween(
 								n).to(.5, {
 								scale: 1
 							}, {
